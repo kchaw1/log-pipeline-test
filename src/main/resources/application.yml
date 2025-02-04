@@ -1,0 +1,21 @@
+server:
+  port: 8089
+spring:
+  kafka:
+    bootstrap-servers: localhost:9093,localhost:9094,localhost:9095
+
+#logging:
+#  file:
+#    name: logs/application.log
+#  level:
+#    root: INFO
+#  pattern:
+#    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+#    file: "%msg%n"
+#  logback:
+#    rollingPolicy:
+#      fileNamePattern: logs/application-%d{yyyyMMddHHmm}.%i.log
+#      maxHistory: 30
+#      totalSizeCap: 3GB
+#      maxFileSize: 1MB
+#      clean-history-on-start: true
